@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
-[Vercel Link - Desktop version]()
+[Vercel Link - Desktop version](https://frontend-mentor-13-eta.vercel.app/)
 
 ---
 
