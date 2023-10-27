@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+/* ----------------HEADER------------------- */
+header {
+  background-image: linear-gradient(rgba(39, 39, 39, 0.023), rgb(255, 255, 255)),
+    url("images/bg-header-desktop.png");
+  background-size: cover;
+}
+.logo-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+.logo-main img {
+  max-width: 15rem;
+}
+.primary-txt {
+  font-size: 4rem;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.secondary-txt {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  padding: 0 35rem;
+}
+/* -----------------SECTION 2------------------ */
+.mac-img {
+  max-width: 110%;
+  transform: translateX(-7%);
+}
+.mac-spec-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  padding: 0 16rem;
+}
+/* -----------------SECTION 3------------------ */
+.devices-img-cl {
+  display: flex;
+  justify-content: center;
+}
+.devices-img {
+  max-width: 60%;
+}
+.card-info-part {
+  margin-bottom: 15rem;
+}
+.card-info-img {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.companies {
+  margin-bottom: 15rem;
+}
+.card-info {
+  padding: 0 4rem;
+}
+/* -----------------FOOTER------------------ */
+footer {
+  background-color: hsla(212, 10%, 33%, 0.07);
+}
+.logo img {
+  max-width: 7rem;
+}
+.general-info {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.general-info a:visited,
+.general-info a:active,
+.general-info a:link {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+.general-info a:hover {
+  color: hsl(171, 66%, 44%);
+  text-decoration: none;
+}
+/* -----------------GENERAL------------------ */
+.container {
+  margin: 0 auto;
+  padding: 5rem 0;
+  max-width: 140rem;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+.grid-temp-colum-row-3x2 {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+.grid-temp-colum-row-2x1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.grid-temp-colum-row-3x1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.large-font {
+  font-size: 4.5rem;
+}
+.section-size {
+  max-width: 70rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 15rem;
+}
+.ios,
+.mac {
+  font-size: 1.5rem;
+  color: white;
+  padding: 2rem 3rem;
+  border-radius: 100rem;
+  border: none;
+}
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 0.2rem solid;
+  border-color: hsl(171, 45%, 41%);
+  box-shadow: 0 0.4rem 1rem hsl(171, 66%, 44%);
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 0.2rem solid;
+  border-color: hsl(232, 56%, 56%);
+  box-shadow: 0 0.4rem 1rem hsl(233, 100%, 69%);
+}
+.ios:hover,
+.mac:hover {
+  cursor: pointer;
+}
+.ios:active {
+  background-color: hsl(171, 45%, 41%);
+  box-shadow: 0 0.1rem hsl(171, 45%, 41%);
+  transform: translateY(0.4rem);
+}
+.mac:active {
+  background-color: hsl(232, 56%, 56%);
+  box-shadow: 0 0.1rem hsl(232, 56%, 56%);
+  transform: translateY(0.4rem);
+}
+.card-prim-txt {
+  font-size: 2.8rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+.card-sec-txt {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 3rem;
+}
+.center {
+  text-align: center;
+}
+.sp-around {
+  justify-content: space-around;
+}
+.mar-bot {
+  margin-bottom: 8rem;
+}

@@ -1,0 +1,60 @@
+@media (max-width: 67em) {
+  html {
+    font-size: 50%;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+  }
+  .container {
+    max-width: 44rem;
+    overflow: visible;
+  }
+  .secondary-txt {
+    padding: 0 0;
+  }
+  .grid-temp-colum-row-2x1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .mac-spec-cards {
+    text-align: center;
+    padding: 0 0;
+  }
+  .grid-temp-colum-row-3x1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .companies {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .ios,
+  .mac {
+    padding: 3rem 0rem;
+    font-size: 2rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .grid-temp-colum-row-3x2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+  }
+  .devices-img-cl {
+    margin-bottom: 10rem;
+  }
+  .devices-img {
+    max-width: 100%;
+  }
+  .mac-spec-cards {
+    margin-bottom: 10rem;
+  }
+}
